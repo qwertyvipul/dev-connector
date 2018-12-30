@@ -5,7 +5,7 @@
 ```
 
 ### User Settings
-```markdown
+```json
 {
   "workbench.colorTheme": "Tomorrow Night Blue",
   "emmet.includeLanguages": {
@@ -30,7 +30,7 @@
 [mLab](https://mlab.com)
 
 ### Getting Started
-```markdown
+```bash
 # 1. Open the integrated terminal and initialize the project
 npm init
 
