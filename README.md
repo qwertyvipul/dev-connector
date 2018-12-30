@@ -21,9 +21,9 @@
 
 ### Plugins
 ```markdown
-    1. ES7 React/Redux/GraphQL/React-Native snippets - by dsznajder
-    2. Prettier - Code formatter - by Esben Petersen
-    3. Node.js Modules Intellisense - by Zongmin Lei
+1. ES7 React/Redux/GraphQL/React-Native snippets - by dsznajder
+2. Prettier - Code formatter - by Esben Petersen
+3. Node.js Modules Intellisense - by Zongmin Lei
 ```
 
 ### Database Setup
@@ -31,24 +31,24 @@
 
 ### Getting Started
 ```markdown
-    # 1. Open the integrated terminal and initialize the project
-    npm init
+# 1. Open the integrated terminal and initialize the project
+npm init
 
-    # 2. Install the dependencies
-    # express - for backend (main framework)
-    # mongoose - to connect and interact with mongodb
-    # passport - for authentication
-    # passport-jwt - json web tokens
-    # jsonwebtokens - to generate the tokens
-    # body-parser - take in data through requests and then manipulate
-    # bcryptjs - for password encryption
-    # validator - for form validation
-    npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
+# 2. Install the dependencies
+# express - for backend (main framework)
+# mongoose - to connect and interact with mongodb
+# passport - for authentication
+# passport-jwt - json web tokens
+# jsonwebtokens - to generate the tokens
+# body-parser - take in data through requests and then manipulate
+# bcryptjs - for password encryption
+# validator - for form validation
+npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
 
-    # 3. Install the dev dependency (to avoid restarting the server back and again)
-    npm i nodemon --save-dev
-    # OR
-    npm i -D nodemon
+# 3. Install the dev dependency (to avoid restarting the server back and again)
+npm i nodemon --save-dev
+# OR
+npm i -D nodemon
 
-    # 4. Create the server.js file and there you GO!
+# 4. Create the server.js file and there you GO!
 ```
