@@ -1,5 +1,8 @@
 # dev-connector
 
+https://stark-oasis-88917.herokuapp.com/
+https://git.heroku.com/stark-oasis-88917.git
+
 ```markdown
 1. Install the latest version of node.js from nodejs.org website.
 ```
@@ -51,4 +54,95 @@ npm i nodemon --save-dev
 npm i -D nodemon
 
 # 4. Create the server.js file and there you GO!
+```
+
+### Getting along nodemon
+make changes in _package.json_
+```json
+"scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+now run using this command
+```bash
+npm run server
+```
+
+### Connecting to the database
+```markdown
+1. Create separate config/keys.js file and declare URI
+2. Connect using mongoose
+```
+
+### Diving Deeper
+```markdown
+1. Create routes
+2. Create models
+3. Create logics and validations
+```
+
+### Getting started with GUI
+```bash
+# install create-react-app
+npm i -g create-react-app
+
+# Create react client in project folder
+create-react-app client
+```
+
+### Getting along create-react-app
+Add to _/client/package.json_
+```json
+"proxy": "http://localhost:5000"
+```
+
+### Running multiple scripts
+```bash
+npm i concurrently
+```
+
+### Direct client installation (when deploying)
+make changes in _package.json_
+```json
+"scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+
+### New way to run the server
+```bash
+npm run dev
+```
+
+### In client directory install
+```bash
+# react router
+npm i react-router-dom``bash
+
+#axios - for testing without redux (may use fetch api as well)
+npm i axios
+
+#classnames (to add conditional classnames)
+npm i classnames
+```
+
+### Getting along redux with react
+```bash
+# Install the required modules (in client folder)
+npm i redux react-redux redux-thunk
+npm i jwt-decode
+```
+
+### Deploying to Heroku
+```bash
+# After installing heroku CLI in your system and to path
+heroku login
+heroku create
 ```
