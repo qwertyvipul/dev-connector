@@ -1,8 +1,5 @@
 # dev-connector
 
-https://stark-oasis-88917.herokuapp.com/
-https://git.heroku.com/stark-oasis-88917.git
-
 ```markdown
 1. Install the latest version of node.js from nodejs.org website.
 ```
